@@ -21,6 +21,17 @@ const WelcomeSign = ({ currentPage }) => {
         </span>
       </div>
     );
+  } else if (currentPage === 'forgotpassword') {
+    return (
+      <div className="text-center mt-8 xl:mt-20">
+        <h1 className="mb-3 text-xl text-gray-700 font-semibold">
+          Lupa Password?
+        </h1>
+        <span className="text-gray-500">
+          Silahkan isi emailmu untuk medapatkan link verifikasi
+        </span>
+      </div>
+    );
   }
 };
 
