@@ -10,10 +10,10 @@ const LoginLeftSection = () => {
       <WelcomeSign currentPage="login" />
       <LoginForm />
 
-      <div class="text-center">
+      <div className="text-center">
         <Link
           to="/register"
-          class="text-sm text-gray-400 hover:text-gray-700 font-semibold cursor-pointer"
+          className="text-sm text-gray-400 hover:text-gray-700 font-semibold cursor-pointer"
         >
           Belum punya akun? Buat sekarang
         </Link>
