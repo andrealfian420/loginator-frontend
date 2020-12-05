@@ -1,7 +1,24 @@
+import Swal from 'sweetalert2';
+
 const ForgotPwForm = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    return Swal.fire({
+      icon: 'info',
+      title: 'Ouch!',
+      text: 'Fitur ini masih dalam pengembangan, kembali lagi nanti ya!',
+      confirmButtonText: 'Oke',
+      allowOutsideClick: false,
+    });
+  };
+
   return (
     <div className="flex justify-center items-center xl:block">
-      <form className="md:mx-4 w-full max-w-md mt-16 xl:mt-12 mb-4">
+      <form
+        onSubmit={handleSubmit}
+        className="md:mx-4 w-full max-w-md mt-16 xl:mt-12 mb-4"
+      >
         <div className="mb-4">
           <label
             for="email"
