@@ -10,10 +10,10 @@ const ForgotPwLeftSection = () => {
       <WelcomeSign currentPage="forgotpassword" />
       <ForgotPwForm />
 
-      <div class="text-center">
+      <div className="text-center">
         <Link
           to="/"
-          class="text-sm text-gray-500 hover:text-gray-700 font-semibold cursor-pointer"
+          className="text-sm text-gray-500 hover:text-gray-700 font-semibold cursor-pointer"
         >
           Kembali ke halaman login
         </Link>

@@ -21,7 +21,7 @@ const ForgotPwForm = () => {
       >
         <div className="mb-4">
           <label
-            for="email"
+            htmlFor="email"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
             Email

@@ -5,7 +5,7 @@ const RegisterForm = () => {
         <div className="grid grid-cols-6 gap-x-2 mb-4">
           <div className="col-span-3">
             <label
-              for="firstName"
+              htmlFor="firstName"
               className="block text-gray-700 text-sm font-bold mb-2"
             >
               Nama Depan
@@ -19,7 +19,7 @@ const RegisterForm = () => {
           </div>
           <div className="col-span-3">
             <label
-              for="lastName"
+              htmlFor="lastName"
               className="block text-gray-700 text-sm font-bold mb-2"
             >
               Nama Belakang
@@ -34,7 +34,7 @@ const RegisterForm = () => {
         </div>
         <div className="mb-4">
           <label
-            for="username"
+            htmlFor="username"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
             Username
@@ -48,7 +48,7 @@ const RegisterForm = () => {
         </div>
         <div className="mb-4">
           <label
-            for="email"
+            htmlFor="email"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
             Email
@@ -62,7 +62,7 @@ const RegisterForm = () => {
         </div>
         <div className="mb-2">
           <label
-            for="password"
+            htmlFor="password"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
             Password
