@@ -1,4 +1,4 @@
-const WelcomeSign = ({ currentPage }) => {
+const WelcomeSign = ({ currentPage, userFirstName }) => {
   if (currentPage === 'login') {
     return (
       <div className="text-center mt-8 xl:mt-20">
@@ -31,6 +31,12 @@ const WelcomeSign = ({ currentPage }) => {
           Silahkan isi emailmu untuk medapatkan link verifikasi
         </span>
       </div>
+    );
+  } else if (currentPage === 'profile') {
+    return (
+      <span className="mt-4 font-semibold text-2xl leading-tight">
+        Welcome back, {userFirstName}!
+      </span>
     );
   }
 };
